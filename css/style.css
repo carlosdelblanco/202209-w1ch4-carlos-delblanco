@@ -27,18 +27,37 @@ html {
     block-size: 40px;
     background-color: #ee6b40;
     border: none;
+    border-radius: 0px 20px 20px 20px;
 }
 
 .image-list {
     display: flex;
     flex-direction: column;
     border-radius: 5%;
-    padding: 50px 50px 50px;
+    width: 70vw;
 }
 
 .image-list__dog {
     border-radius: 5%;
     padding: 10px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image-list__embedded-text {
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 395px;
+}
+
+.image-list__embedded-bold-text {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 375px;
 }
 
 .image-list__alternative-dog {
