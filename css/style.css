@@ -7,36 +7,41 @@
 html {
     font-family: "Nunito", sans-serif;
 }
-
-.page-theme {
+.card {
     display: flex;
-    color: #ee6b40;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.page-theme {
+    color: #ee6b40;
     font-size: small;
 }
 
 .page-subject {
     color: #181818;
-    display: flex;
-    justify-content: center;
 }
 
 .button-for-view-all {
     color: white;
     block-size: 40px;
     background-color: #ee6b40;
+    border: none;
 }
 
 .image-list {
     display: flex;
     flex-direction: column;
     border-radius: 5%;
+    padding: 50px 50px 50px;
 }
 
 .image-list__dog {
     border-radius: 5%;
+    padding: 10px;
 }
 
 .image-list__alternative-dog {
     border-radius: 5%;
+    padding: 10px;
 }
